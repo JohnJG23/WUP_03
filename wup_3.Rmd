@@ -47,6 +47,13 @@ There is a statistical difference in the back and the front and middle.
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+There is a p value that is equivalent to 0.000116. The term P value signifies that the "Probability" is very small.   
+
 ## Conclusions
 
 
