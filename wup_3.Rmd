@@ -62,4 +62,4 @@ plot(TukeyHSD(model1))
 
 ## Conclusions
 
-
+The Plots in this data was not giving very clear statistics. Then we knew that the people toward the back rows were showing differences in amount of drinking in comparison to students in near the front and middle-front. 
