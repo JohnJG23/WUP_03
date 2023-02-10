@@ -35,6 +35,8 @@ basicCN + geom_boxplot()
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
 
+The fancy notch boxplot communicates based off of the median that the average amount of drinks that somebody in the back is taking is bigger than somebody who is in the front and middle.     
+
 ## Numerical Summarys 
 
 ## Inferential Tests
