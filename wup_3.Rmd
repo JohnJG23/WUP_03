@@ -52,7 +52,13 @@ model1 <- aov(alcohol~Seat,data=davisdata)
 summary.aov(model1)
 ```
 
-There is a p value that is equivalent to 0.000116. The term P value signifies that the "Probability" is very small.   
+There is a p value that is equivalent to 0.000116. The term P value signifies that the "Probability" is very small.
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+0 is in the interval for front and middle all though the people who appear to be in the back rows are apparently being different.  
 
 ## Conclusions
 
