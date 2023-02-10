@@ -39,6 +39,12 @@ The fancy notch boxplot communicates based off of the median that the average am
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
+
+There is a statistical difference in the back and the front and middle.  
+
 ## Inferential Tests
 
 ## Conclusions
